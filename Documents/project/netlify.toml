@@ -1,0 +1,7 @@
+[build]
+  base = "Documents/project"
+  publish = "Documents/project/dist"
+  command = "npm install && npm run build"
+
+[build.environment]
+  PYTHON_VERSION = "3.11.9"
