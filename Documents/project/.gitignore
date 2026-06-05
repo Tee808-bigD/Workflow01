@@ -1,0 +1,16 @@
+# .gitignore
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+*.log
+__pycache__/
+*.pyc
+venv/
+.venv/
+.claude/
+.codex/
+.agents/
+test_ws.py
+.DS_Store
